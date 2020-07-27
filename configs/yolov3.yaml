@@ -1,0 +1,8 @@
+YOLOV3:
+  CFG: "./detector/YOLOv3/cfg/mydata_yolov3.cfg"
+  #WEIGHT: "./detector/YOLOv3/weight/yolov3.weights"
+  WEIGHT: "/data/Guha/construction/checkpoints/best_ckpt/6_frames_490.weights"
+  CLASS_NAMES: "./detector/YOLOv3/cfg/mydata.names"
+
+  SCORE_THRESH: 0.5
+  NMS_THRESH: 0.4
